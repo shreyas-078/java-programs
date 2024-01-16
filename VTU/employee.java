@@ -42,7 +42,7 @@ public class employee {
     System.out.println("Employee details before raise:");
     System.out.println("ID: " + employee1.getId());
     System.out.println("Name: " + employee1.getName());
-    System.out.println("Salary: S" + employee1.getSalary());
+    System.out.println("Salary: $" + employee1.getSalary());
     // Raise the salary by 10%
     employee1.raiseSalary(10);
     //Display details after the raise
